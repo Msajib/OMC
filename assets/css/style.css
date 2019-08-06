@@ -1,0 +1,58 @@
+body{
+   background-size: 100% auto;
+   width:100%;
+   height:100%;
+}
+#add_button{
+    padding-top: 70px;
+}
+#navbar{
+    background: red;
+    background-color: red;
+    color: lightcyan;
+}
+.FRight{
+    float: right;
+}
+#FLeft{
+    float: left;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+.my-custom-scrollbar {
+position: relative;
+height: 500px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+.monthly-report{
+    background-color: #007bff;
+    height: 100%;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 0px;
+   text-align: center;
+   border-radius: 3px;
+   vertical-align: middle;
+}
+.month_list{
+    text-align: center;
+}
+.navbar-toggler-icon {
+    /*background-color: ghostwhite;*/
+}
+.text-white{
+    color: white;
+}
+
+

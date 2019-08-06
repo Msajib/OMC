@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /Office_Meal_Count/
+    RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteCond $1 !^(index\.php|css|images|robots\.txt)
+    RewriteRule ^(.*)$ ./index.php/$1 [L]
+</IfModule>
